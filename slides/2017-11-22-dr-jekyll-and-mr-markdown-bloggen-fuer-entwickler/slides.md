@@ -1,7 +1,7 @@
 ## Dr. Jekyll and Mr. Markdown
 ### Bloggen für Entwickler
 
-Markus Dötsch, Ottmar Gobrecht
+Ottmar Gobrecht, Markus Dötsch
 
 DOAG Konferenz 2017, Nürnberg
 
@@ -12,6 +12,18 @@ DOAG Konferenz 2017, Nürnberg
 ---
 
 ## Teilt Euer Wissen!
+
+---
+
+## Schnell und unkompliziert
+
+---
+
+## Bekannte Tools
+
+---
+
+## Bloggen als Teil der "normalen" Arbeit
 
 -----
 
