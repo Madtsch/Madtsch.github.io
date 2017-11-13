@@ -209,7 +209,8 @@ Für Neugierige und Bastler
 Paketmanager und Jekyll:
 ```sh
 gem install bundler
-bundle install jekyll
+bundle install
+bundle install jekyll ???
 ```
 
 ---
@@ -229,6 +230,7 @@ Details: https://help.github.com/articles/setting-up-your-github-pages-site-loca
 Im Projektverzeichnis:
 ```sh
 git clone yourForkedRepoURL.git
+
 
 git init yourForkedRepoName
 cd yourForkedRepoName
@@ -254,7 +256,7 @@ bundle install
 
 Refresh bei Änderungen
 ```sh
-bundle exec kekyll serve
+bundle exec jekyll serve
 ```
 Einmalig
 ```sh
@@ -309,7 +311,7 @@ bundle update html-proofer
 
 - Editor Atom
   - Plugin: Markdown-Writer
-- Editor Visual Studi Code
+- Editor Visual Studio Code
   - Plugin: Markdown All in One
 - ...
 
@@ -386,7 +388,12 @@ Die Templatesprache
 
 ---
 
-...
+### Erweiterungsvorschläge
+
+- Eigene Domain für den Blog
+- Migration von existierenden Blogs (Wordpress, usw.) - http://import.jekyllrb.com/docs/home/
+- Disqus für Kommentarfunktion
+- Einsatz von Google Analytics
 
 -----
 
@@ -417,5 +424,5 @@ Die Templatesprache
 
 ### Fragen?
 
-[madtsch.github.io](https://madtsch.github.io)  
 [ogobrecht.github.io](https://ogobrecht.github.io)
+[madtsch.github.io](https://madtsch.github.io)  
