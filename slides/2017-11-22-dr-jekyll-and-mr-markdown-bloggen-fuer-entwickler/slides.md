@@ -11,19 +11,27 @@ DOAG Konferenz 2017, Nürnberg
 
 ---
 
-## Teilt Euer Wissen!
+### Wissen teilen!
+
+Oder zumindest bewahren! :)
 
 ---
 
-## Schnell und unkompliziert
+### Schnell und unkompliziert
+
+Hürden minimieren!
 
 ---
 
-## Bekannte Tools
+### Bekannte Tools
+
+Context Switches vermeiden!
 
 ---
 
-## Bloggen als Teil der "normalen" Arbeit
+### Bloggen als Teil der "normalen" Arbeit
+
+Nicht als extra Teil ansehen!
 
 -----
 
@@ -159,18 +167,18 @@ Markdown = Schreib-Format
 
 -----
 
-## Online in 3 Minuten (og)
+## Online in 5 Minuten (og)
 
-Alles im Browser
+Alles im Browser - Demo ...
 
 ---
 
-- Login to [GitHub](https://github.com/)
+- Login to your [GitHub](https://github.com/)
 - Fork repository [HydeBar](https://github.com/ogobrecht/hydebar)
 - Edit `_config.yml` (url, baseurl)
 - Change repository settings
     - Rename to yourUserName.github.io
-    - Activate GitHub Pages
+    - Evtl. activate GitHub Pages
 
 ---
 
@@ -178,7 +186,7 @@ Alles im Browser
 
 - `_data/authors`
 - `_config.yml`
-  - permalink: /posts/:year-:month-:day-:title (einstellen und nicht mehre ändern)
+  - permalink: /posts/:year-:month-:day-:title (einstellen und nicht mehr ändern)
   - ...
 
 ---
@@ -203,6 +211,13 @@ Paketmanager und Jekyll:
 gem install bundler
 bundle install jekyll
 ```
+
+---
+
+### Installation Windows
+
+- Dokumentation - https://jekyllrb.com/docs/windows/
+- Windows 10 - Integrierte Bash verwenden
 
 ---
 
