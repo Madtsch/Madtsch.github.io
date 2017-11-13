@@ -216,6 +216,7 @@ bundle install jekyll
 
 ### Installation Windows
 
+- Jekyll ist nicht offiziell supportet
 - Dokumentation - https://jekyllrb.com/docs/windows/
 - Windows 10 - Integrierte Bash verwenden
 
@@ -223,9 +224,27 @@ bundle install jekyll
 
 ### Installation Blog
 
+Details: https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/
+
 Im Projektverzeichnis:
 ```sh
+git clone yourForkedRepoURL.git
+
+git init yourForkedRepoName
+cd yourForkedRepoName
 git checkout yourForkedRepoURL.git
+bundle install
+```
+
+---
+
+Beispiel:
+```sh
+git clone https://github.com/Madtsch/madtsch.github.io.git
+
+git init madtsch.github.io
+cd madtsch.github.io
+git checkout madtsch.github.io
 bundle install
 ```
 
