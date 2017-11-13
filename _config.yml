@@ -19,7 +19,7 @@ title: Github Blog - Markus Dötsch
 description: A Jekyll Sidebar Template Example
 author: madtsch # edit also the author details in "_data/authors.yml" (multiple authors possible for a post)
 url: "https://madtsch.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 permalink: /posts/:year-:month-:day-:title
 lang: en # the base language of your site, can be overwritten on a page or post - for UI translations see also the files under "_data/locales/" - if you finished an additional language file please create a pull request to make it availabe for all users :-)
 brand-color: "#268bd2" # If you need more control over the layout please see /assets/main.scss
