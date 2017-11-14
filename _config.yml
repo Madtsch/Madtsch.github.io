@@ -18,6 +18,7 @@
 title: Github Blog - Markus Dötsch
 description: A Jekyll Sidebar Template Example
 author: madtsch # edit also the author details in "_data/authors.yml" (multiple authors possible for a post)
+  avatar: https://avatars1.githubusercontent.com/u/30468854?s=460&v=4
 url: "https://madtsch.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 permalink: /posts/:year-:month-:day-:title
