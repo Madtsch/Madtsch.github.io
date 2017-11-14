@@ -197,27 +197,38 @@ Alles im Browser - Demo ...
 
 ## Optionale Installation lokal (md)
 
-Für Neugierige und Bastler
+Für Neugierige und "Selbermacher"
 
 ---
 
-### Installation Betriebssystem
+### Installation Git Client
 
-- Git Client
-- Ruby
+- https://git-scm.com/docs/gittutorial
+- http://rogerdudler.github.io/git-guide/index.de.html
+
+---
+
+### Installation Ruby
+
+- https://www.ruby-lang.org/de/documentation/installation/
+- https://rubyinstaller.org/
+
+---
+
+### Installation Jekyll
+
+- https://jekyllrb.com/docs/installation/
+- https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/
 
 Paketmanager und Jekyll:
 ```sh
 gem install bundler
 bundle install
-bundle install jekyll ???
 ```
 
----
+Anmerkung:
 
-### Installation Windows
-
-- Jekyll ist nicht offiziell supportet
+- Windows ist von Jekyll nicht offiziell unterstützt
 - Dokumentation - https://jekyllrb.com/docs/windows/
 - Windows 10 - Integrierte Bash verwenden
 
@@ -225,69 +236,55 @@ bundle install jekyll ???
 
 ### Installation Blog
 
-Details: https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/
-
-Im Projektverzeichnis:
+Im (übergeordneten) Projektverzeichnis:
 ```sh
 git clone yourForkedRepoURL.git
-
-
-git init yourForkedRepoName
-cd yourForkedRepoName
-git checkout yourForkedRepoURL.git
-bundle install
 ```
 
----
+Das lokale Verzeichnis wird automatisch angelegt
 
-Beispiel:
 ```sh
-git clone https://github.com/Madtsch/madtsch.github.io.git
-
-git init madtsch.github.io
-cd madtsch.github.io
-git checkout madtsch.github.io
+cd yourForkedRepoName
 bundle install
 ```
+
+Notwendige Jekyll files werden installiert
+
+Anmerkung:
+
+GitHub URL = https://github.com/UserName/RepoName.git
+Beispiel: https://github.com/Madtsch/madtsch.github.io.git
 
 ---
 
 ### Starten Devserver
 
-Refresh bei Änderungen
+Automatischer refresh bei Änderungen
 ```sh
 bundle exec jekyll serve
 ```
-Einmalig
+
+Server ist unter http://http://127.0.0.1:4000 aufrufbar
+
+Einmaliger refresh
 ```sh
 bundle exec jekyll build
-```
-Linkprüfung
-```sh
-bundle exec htmlproofer ./_site \
-  --assume-extension \
-  --file-ignore /.*\/assets\/reveal\.js\/.*/
-```
-
-Anmerkung:
-
-Wenn die site.basurl nicht leer sein sollte, dann wird "htmlproofer" vermutlich sehr viele Fehler werfen, weil keine internen Links auf dem Development Server stimmen. Das kann man umgehen, in dem man die Seite in dem entsprechenden Unterverzeichnis erstellen lässt - hier "jekyll-sidebar-template":
-
-```ruby
-bundle exec jekyll build -d _site/jekyll-sidebar-template
-bundle exec htmlproofer ./_site \
-  --assume-extension \
-  --file-ignore /.*\/assets\/reveal\.js\/.*/
 ```
 
 ---
 
-### Spätere Updates
+### Publishen der Änderungen auf GitHub
 
 ```sh
-bundle install
-bundle update github-pages
-bundle update html-proofer
+git push yourForkedRepoURL.git
+```
+
+---
+
+### Spätere Updates von Jekyll
+
+```sh
+bundle update
 ```
 
 -----
