@@ -60,10 +60,10 @@ wie GitHubDesktop oder Editoren wie Atom
 
 ## Was ist GitHub?
 
-- Ein webbasierter Online Dienst auf Basis von git
-- Reichert den Entwicklungsprozess mit weiteren Funktionen an
-- Öffentliche Repositories/Projekte sind kostenfrei
-- Bietet eine kostenfreie Subdomain - UserName.github.io
+- Webbasierter Online Dienst
+- Reichert Entwicklungsprozess an
+- Öffentliche Repositories/Projekte kostenfrei
+- Kostenfreie Subdomain - UserName.github.io
 
 -----
 
