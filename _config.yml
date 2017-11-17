@@ -15,15 +15,14 @@
 # you will see them accessed via {{ site.title }}, {{ site.data.authors[site.author].email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Github Blog - Markus Dötsch
-description: A Jekyll Sidebar Template Example
+title: Markus Dötsch
+description: Private Blog!
 author: madtsch # edit also the author details in "_data/authors.yml" (multiple authors possible for a post)
-  avatar: https://avatars1.githubusercontent.com/u/30468854?s=460&v=4
 url: "https://madtsch.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 permalink: /posts/:year-:month-:day-:title
 lang: en # the base language of your site, can be overwritten on a page or post - for UI translations see also the files under "_data/locales/" - if you finished an additional language file please create a pull request to make it availabe for all users :-)
-brand-color: "#268bd2" # If you need more control over the layout please see /assets/main.scss
+brand-color: "#528586" # If you need more control over the layout please see /assets/main.scss
 show_lang_in_post_listings: true # home page, archive, post lists on tag pages (useful, when you deliver mixed content)
 feed_limit: 25
 disqus:

@@ -1,3 +1,5 @@
+<!-- {% raw %} -->
+
 ## Dr. Jekyll and Mr. Markdown
 ### Bloggen für Entwickler
 
@@ -7,41 +9,71 @@ DOAG Konferenz 2017, Nürnberg
 
 -----
 
-## Motivation (md)
+## Motivation
 
 ---
 
-### Wissen teilen!
+### Wissen teilen
 
-Oder zumindest bewahren! :)
+Oder zumindest bewahren :-)
 
 ---
 
 ### Schnell und unkompliziert
 
-Hürden minimieren!
+Hürden minimieren
 
 ---
 
 ### Bekannte Tools
 
-Context Switches vermeiden!
+Context Switches vermeiden
 
 ---
 
 ### Bloggen als Teil der "normalen" Arbeit
 
-Nicht als extra Teil ansehen!
+Nicht als extra Teil ansehen
 
 -----
 
-## Was ist Jekyll? (og)
+## Was ist git?
+
+- Open Source Software zur Versionsverwaltung
+- Initiator 2005 - Linus Torvalds
+
+---
+
+### Benutzbar in der Kommandozeile ...
+
+![git in der Kommandozeile](./assets/git.png)  
+
+---
+
+### ... oder mit grafischen Tools
+
+![GitHubDesktop](./assets/githubdesktop.png)  
+
+wie GitHubDesktop oder Editoren wie Atom
+
+-----
+
+## Was ist GitHub?
+
+- Ein webbasierter Online Dienst auf Basis von git
+- Reichert den Entwicklungsprozess mit weiteren Funktionen an
+- Öffentliche Repositories/Projekte sind kostenfrei
+- Bietet eine kostenfreie Subdomain - UserName.github.io
+
+-----
+
+## Was ist Jekyll?
 
 ---
 
 ### Ein Generator für statische Webseiten
 
-Genauer, ein Ruby Skript
+Genauer: Ein Ruby Skript
 
 ---
 
@@ -51,38 +83,35 @@ Genauer, ein Ruby Skript
 
 - Geschwindigkeit
 - Sicherheit
+- Anpassbarkeit (übersichtlich)
 
 ---
 
-Geschwindigkeit dynamisch - schnell (DSL)
+Geschwindigkeit dynamisch - DSL
 
-![WordPress Beispiel](./assets/ladezeit-dynamisch.png)
-
-87 Requests - 1,3 MB - 2,7 s Ladezeit
-
----
-
-Geschwindigkeit statisch - schnell (DSL)
-
-![Jekyll Beispiel](./assets/ladezeit-statisch.png)
-
-2 Requests - 5 KB - 0,1 s Ladezeit
+![WordPress Beispiel](./assets/ladezeit-dynamisch.png)  
+<small>87 Requests - 1,3 MB - 2,7 s Ladezeit</small>
 
 ---
 
-Geschwindigkeit dynamisch - langsam (mobil)
+Geschwindigkeit statisch - DSL
 
-![WordPress Beispiel](./assets/ladezeit-dynamisch-langsam-mobil.png)
-
-86 Requests - 1,3 MB - 36,3 s Ladezeit
+![Jekyll Beispiel](./assets/ladezeit-statisch.png)  
+<small>2 Requests - 5 KB - 0,1 s Ladezeit</small>
 
 ---
 
-Geschwindigkeit statisch - langsam (mobil)
+Geschwindigkeit dynamisch - mobil 3G
 
-![Jekyll Beispiel](./assets/ladezeit-statisch-langsam-mobil.png)
+![WordPress Beispiel](./assets/ladezeit-dynamisch-langsam-mobil.png)  
+<small>86 Requests - 1,3 MB - 36,3 s Ladezeit</small>
 
-2 Requests - 5 KB - 4,2 s Ladezeit
+---
+
+Geschwindigkeit statisch - mobil 3G
+
+![Jekyll Beispiel](./assets/ladezeit-statisch-langsam-mobil.png)  
+<small>2 Requests - 5 KB - 4,2 s Ladezeit</small>
 
 ---
 
@@ -110,11 +139,18 @@ Geschwindigkeit statisch - langsam (mobil)
 
 ---
 
-### FIXME Screenshot DokuWiki einfügen wegen Sicherheit
+### Ist das sicher?
+
+![DokuWiki Beispiel](./assets/dokuwiki-updates.png)  
+<small>Ein DokuWiki, das längerer Zeit nicht aktualisiert wurde...</small>
+
+---
+
+### Fragen?
 
 -----
 
-## Was ist Markdown? (og)
+## Was ist Markdown?
 
 ---
 
@@ -142,7 +178,7 @@ einer ***Kombination aus fett und kursiv***.
 
 [Ein Link](https://daringfireball.net/projects/markdown/syntax)
 
-![Ein Bild](/assets/john-gruber.png)
+![Ein Bild](./assets/john-gruber.png)
 ```
 
 ---
@@ -159,26 +195,26 @@ Markdown = Schreib-Format
 
 ![Editor Atom mit Live-Vorschau](./assets/editor-atom.png)
 
-[Editor Atom](https://atom.io/) mit [Plugin Markdown-Writer](https://atom.io/packages/markdown-writer)
+<small>Beispiel: [Editor Atom](https://atom.io/) mit [Plugin Markdown-Writer](https://atom.io/packages/markdown-writer)</small>
 
 ---
 
-...
+### Fragen?
 
 -----
 
-## Online in 5 Minuten (og)
-
-Alles im Browser - Demo ...
+## Online in 5 Minuten
 
 ---
 
-- Login to your [GitHub](https://github.com/)
+### Alles im Browser
+
+- Login to [GitHub](https://github.com/)
 - Fork repository [HydeBar](https://github.com/ogobrecht/hydebar)
 - Edit `_config.yml` (url, baseurl)
 - Change repository settings
     - Rename to yourUserName.github.io
-    - Evtl. activate GitHub Pages
+    - Activate GitHub Pages
 
 ---
 
@@ -186,16 +222,19 @@ Alles im Browser - Demo ...
 
 - `_data/authors`
 - `_config.yml`
-  - permalink: /posts/:year-:month-:day-:title (einstellen und nicht mehr ändern)
+  - Permalink:
+    - `/posts/:year-:month-:day-:title`
+    - [Jekyll Doku: Permalinks](https://jekyllrb.com/docs/permalinks/)
+  - Sidebar
   - ...
 
 ---
 
-...
+### Fragen?
 
 -----
 
-## Optionale Installation lokal (md)
+## Optionale Installation lokal
 
 Für Neugierige und "Selbermacher"
 
@@ -203,34 +242,19 @@ Für Neugierige und "Selbermacher"
 
 ### Installation Git Client
 
-- https://git-scm.com/docs/gittutorial
-- http://rogerdudler.github.io/git-guide/index.de.html
+- [Tutorial 1](https://git-scm.com/docs/gittutorial)
+- [Tutorial 2](http://rogerdudler.github.io/git-guide/index.de.html)
 
 ---
 
 ### Installation Ruby
 
-- https://www.ruby-lang.org/de/documentation/installation/
-- https://rubyinstaller.org/
-
----
-
-### Installation Jekyll
-
-- https://jekyllrb.com/docs/installation/
-- https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/
-
-Paketmanager und Jekyll:
+- [Doku Installation](https://www.ruby-lang.org/de/documentation/installation/)
+- [Download](https://rubyinstaller.org/)
+- Paketmanager Bundler
 ```sh
 gem install bundler
-bundle install
 ```
-
-Anmerkung:
-
-- Windows ist von Jekyll nicht offiziell unterstützt
-- Dokumentation - https://jekyllrb.com/docs/windows/
-- Windows 10 - Integrierte Bash verwenden
 
 ---
 
@@ -248,33 +272,43 @@ cd yourForkedRepoName
 bundle install
 ```
 
-Notwendige Jekyll files werden installiert
+<small>"bundle install" installiert alle Abhängigkeiten für Jekyll, die im  
+"Gemfile" konfiguriert sind - siehe Projektverzeichnis</small>
+
+- [Doku Installation](https://jekyllrb.com/docs/installation/)
+- [Doku GitHub Pages & Jekyll](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/)
+
 
 Anmerkung:
 
-GitHub URL = https://github.com/UserName/RepoName.git
-Beispiel: https://github.com/Madtsch/madtsch.github.io.git
+GitHub URL = `https://github.com/UserName/RepoName.git`
+Beispiel: <https://github.com/Madtsch/madtsch.github.io.git>
+
+- Windows ist von Jekyll nicht offiziell unterstützt
+- Dokumentation: <https://jekyllrb.com/docs/windows/>
+- Windows 10 - Integrierte Bash verwenden
 
 ---
 
-
 ### Starten Devserver
 
-Automatischer refresh bei Änderungen
+Automatischer Refresh bei Änderungen
+
 ```sh
 bundle exec jekyll serve
 ```
 
-Server ist unter http://http://127.0.0.1:4000 aufrufbar
+<small markdown="1">Server ist unter <http://127.0.0.1:4000> aufrufbar</small>
 
-Einmaliger refresh
+Einmaliger Refresh
+
 ```sh
 bundle exec jekyll build
 ```
 
 ---
 
-### Publishen der Änderungen auf GitHub
+### Publizieren der Änderungen auf GitHub
 
 ```sh
 git push yourForkedRepoURL.git
@@ -288,9 +322,13 @@ git push yourForkedRepoURL.git
 bundle update
 ```
 
+---
+
+### Fragen?
+
 -----
 
-## Inhalte Erstellen (md)
+## Inhalte Erstellen
 
 ---
 
@@ -298,6 +336,9 @@ bundle update
 
 - GitHub
 - Trello
+- One Note, Evernote, Email, ...
+- Alles, was Text speichern kann :-)
+- ...
 
 ---
 
@@ -311,7 +352,7 @@ bundle update
   - Plugin: Markdown-Writer
 - Editor Visual Studio Code
   - Plugin: Markdown All in One
-- ...
+- Jede gute IDE hat Plugins für Markdown
 
 ---
 
@@ -319,83 +360,179 @@ bundle update
 
 ---
 
-### Spezialitäten im Jekyll Umfeld
-
-- Reveal.js
-- Bild: `![Python Pandas](./assets/pandas.pydata.org.png) <!-- .element: width="600px" -->`
-- Beispiel Bildergalerien (Touch-Ünterstützung)
-- TOC: {% raw %}`{% include toc %}`{% endraw %}
-
----
-
-Demo...
-
----
-
-...
+### Fragen?
 
 -----
 
-## Die Jekyll Blackbox (md)
+## Die Jekyll Blackbox
 
 ---
 
 ### Was ist ein Post?
 
----
-
-- liegt im Ordner `_posts`
-- Namenskonvention (ISO Datum)
--
+- Liegt irgendwo unterhalb von `_posts`
+- Namenskonvention
+  - `yyyy-mm-dd-post-titel.md`
+- [Jekyll Doku: Writing posts](https://jekyllrb.com/docs/posts/)
 
 ---
 
 ### Was ist eine Page?
 
+- Alles, was kein Post ist
+  - Also, nicht zeitbasiert
+  - Statische Seiten eben ;-)
+- [Jekyll Doku: Creating pages](https://jekyllrb.com/docs/pages/)
+- [Jekyll Doku: Static files](https://jekyllrb.com/docs/static-files/)
+
 ---
 
-### Frontmatter
+### Frontmatter?
 
-Die Metadaten
+- Die Metadaten von posts und pages
+- [Jekyll Doku: Front Matter](https://jekyllrb.com/docs/frontmatter/)
+
+```yaml
+---
+title: Dr. Jekyll and Mr. Markdown - Bloggen für Entwickler
+subtitle: DOAG Konferenz 2017, Nürnberg
+categories: [slides]
+tags: [jekyll, markdown]
+author: [ogobrecht, madtsch]
+lang: de
+last_modified_at: 2017-11-12
+---
+
+Hier kommt dann der eigentliche Artikel...
+
+```
 
 ---
 
 ### Verzeichnisstruktur
 
+```
+.
+├── _config.yml
+├── _data
+|   └── members.yml
+├── _drafts
+|   ├── begin-with-the-crazy-ideas.md
+|   └── on-simplicity-in-technology.md
+├── _includes
+|   ├── footer.html
+|   └── header.html
+├── _layouts
+|   ├── default.html
+|   └── post.html
+├── _posts
+|   ├── 2007-10-29-why-every-programmer-should-play-nethack.md
+|   └── 2009-04-26-barcamp-boston-4-roundup.md
+├── _sass
+|   ├── _base.scss
+|   └── _layout.scss
+├── _site
+├── .jekyll-metadata
+└── index.html # can also be an 'index.md' with valid YAML Frontmatter
+```
+
+[Jekyll Doku: Directory structure](https://jekyllrb.com/docs/structure/)
+
 ---
 
-### Implizite Metadaten
+### Posts & Pages verlinken - erster Blick auf Liquid
 
-- Verweis Doku
--
+Markdown Link Syntax & Liquid Tag "link"  
+<small markdown="1">`{{ site.baseurl }}` ist je nach Konfiguration optional</small>
+
+```md
+[Link to a post]({% link _posts/2016-07-26-name-of-post.md %})
+[Link to a page]({{ site.baseurl }}{% link news/index.html %})
+[Link to a file]({% link /assets/doc.pdf %})
+```
+
+Nur mit Markdown...
+
+```md
+[Link to a post](/posts/2016-07-26-name-of-post.html)
+[Link to a page]({{ site.baseurl }}/news/index.html)
+[Link to a file](/assets/doc.pdf)
+```
+
+Wo ist der Unterschied?  
+<small>"link" Tag sorgt für korrekte Permalinks! [Jekyll Doku: Links](https://jekyllrb.com/docs/templates/#links)</small>
+
+
+---
+
+### Demo...
+
+---
+
+### Fragen?
 
 -----
 
-## Jekyll selbst erweitern (og)
-Beispiel Reveal.js Integration
+## Jekyll selbst erweitern
+
+Beispiel: [Reveal.js](http://lab.hakim.se/reveal-js/) Integration
+
+<small>Was uns hilft: Jekylls Übersichtlichkeit und Anpassbarkeit</small>
 
 ---
 
-### Liquid
+### Die Grundlage Liquid
 
-Die Templatesprache
+Jekylls Template Engine
 
-- https://shopify.github.io/liquid/
-- https://shopify.github.io/liquid/basics/variations/
-- http://jekyllrb.com/docs/templates/
+- Layouts (kaskadierende Templates)
+- Includes (Funktionsaufrufe)
+- [Jekyll Doku: Templates](https://jekyllrb.com/docs/templates/)
+- [Liquid Template Language](https://shopify.github.io/liquid/)
 
 ---
 
-### Erweiterungsvorschläge
+### Demo...
 
-- Eigene Domain für den Blog
-- Migration von existierenden Blogs (Wordpress, usw.) - http://import.jekyllrb.com/docs/home/
-- Disqus für Kommentarfunktion
-- Einsatz von Google Analytics
+---
+
+### Warum Reveal.js?
+
+- Slides HTML5 basiert
+- Touch Support für mobile Geräte
+- Unterstützt Markdown
+- [Reveal.js Doku](https://github.com/hakimel/reveal.js)
+
+---
+
+### Was brauchen wir?
+
+- Layout für Reveal.js
+- Include zur Einbindung in Posts
+- Eine Markdowndatei für Folieninhalte
+- Die Reveal.js Library Files
+
+---
+
+### Ideen zur Umsetzung
+
+- Ein Ordner pro Präsentation
+- `index.md` für Reveal.js
+- `slides.md` für Folieninhalte (ohne Front Matter)
+- Reveal Libs in `/assets/reveal.js`
+- Include mit Variable `path`
+
+---
+
+### Demo...
+
+---
+
+### Fragen?
 
 -----
 
-## Links (og)
+## Links
 
 ---
 
@@ -406,7 +543,7 @@ Die Templatesprache
 
 ---
 
-## Weitere Static Site Generators
+### Weitere Static Site Generators
 
 - [Hugo](https://gohugo.io/) (Go)
 - [Hexo](https://hexo.io/) (Node.js)
@@ -418,6 +555,13 @@ Die Templatesprache
 
 ---
 
+### PL/SQL Template Engines
+
+- [FTLDB](https://github.com/ftldb/ftldb/blob/master/README.md)
+- [tePLSQL](https://github.com/osalvador/tePLSQL/blob/master/README.md)
+
+---
+
 ## The End
 
 ### Fragen?
@@ -425,3 +569,5 @@ Die Templatesprache
 [ogobrecht.github.io](https://ogobrecht.github.io)
 
 [madtsch.github.io](https://madtsch.github.io)  
+
+<!-- {% endraw %} -->
