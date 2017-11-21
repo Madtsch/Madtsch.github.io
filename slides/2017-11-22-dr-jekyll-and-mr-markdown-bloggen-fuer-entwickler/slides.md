@@ -146,10 +146,6 @@ Geschwindigkeit statisch - mobil 3G
 
 ---
 
-### Fragen?
-
------
-
 ## Was ist Markdown?
 
 ---
