@@ -1,7 +1,7 @@
 ---
 title: First Blog Entry
 subtitle: To be the first is allways tricky!
-tags: [Speach, DOAG_2017, Blog]
+tags: [speach, doag2017, blog]
 lang: en
 ---
 

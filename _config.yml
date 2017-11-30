@@ -22,7 +22,7 @@ url: "https://madtsch.github.io" # the base hostname & protocol for your site, e
 baseurl: "" # the subpath of your site, e.g. /blog
 permalink: /posts/:year-:month-:day-:title
 lang: en # the base language of your site, can be overwritten on a page or post - for UI translations see also the files under "_data/locales/" - if you finished an additional language file please create a pull request to make it availabe for all users :-)
-brand-color: "#305a5a" # If you need more control over the layout please see /assets/main.scss
+brand-color: "#6d9696" # If you need more control over the layout please see /assets/main.scss
 show_lang_in_post_listings: true # home page, archive, post lists on tag pages (useful, when you deliver mixed content)
 feed_limit: 25
 disqus:
