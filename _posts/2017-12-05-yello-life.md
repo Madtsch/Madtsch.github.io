@@ -15,7 +15,7 @@ And Mr. Dieter Meier knows to handle his voice. And together they are Yello. Sin
 
 [Bild Zeitung][1]
 
-[Merkus][2]
+[Merkur][2]
 
 [1]: http://www.bild.de/regional/muenchen/olympiapark/yello-konzert-olympiahalle-54096656.bild.html
 [2]: https://www.merkur.de/kultur/yello-in-olympiahalle-elektro-mit-herz-hirn-und-humor-9425331.html
