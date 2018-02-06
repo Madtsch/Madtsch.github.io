@@ -11,7 +11,7 @@ How many years are gone. But they are back. And better then ever. A small gig in
 
 They had so much potential. And see where they are! I am totally jealous!
 
-And after that - a little bit of syntesizer free yazz! It starts slow - but wait a little - you will see!
+And after that - a little bit of Synthesizer Free Jazz! It starts slow - but wait a little - you will see!
 
 [Snarky Puppy with KingKorg][2]
 
