@@ -1,6 +1,6 @@
 ---
 title: Yello Life
-subtitle: A old computer band goes life
+subtitle: An old computer band goes life
 tags: [music]
 lang: en
 ---
