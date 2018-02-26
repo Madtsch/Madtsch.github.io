@@ -11,4 +11,4 @@ This songs has to be longer than 30 seconds. So my new song, made with Sequel 3 
 
 So - whom I have to give my bank account numbers to get some money?
 
-Do you wanna <a href="Random.mp3">hear my song</a>? It's your risk - I warned you - somehow!
+Do you wanna <a href="http://blogold.markus-doetsch.de/?attachment_id=2637">hear my song?</a> It's your risk - I warned you - somehow!
